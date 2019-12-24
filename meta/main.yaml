@@ -1,0 +1,31 @@
+---
+galaxy_info:
+  author: aditya singh 
+  role_name: hyperledger-sawtooth
+  description: Sawtooth is an open-source blockchain platform
+  license: license (Apache)
+  min_ansible_version: 2.6
+  platforms:
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+    - name: Ubuntu
+      versions:
+        - xenial
+        - bionic
+        - cosmic
+    - name: EL
+      versions:
+        - 7
+    - name: Fedora
+      versions:
+        - 28
+        - 29
+        - 30
+    - name: MacOSX
+      versions:
+        - all
+  galaxy_tags:
+    - sawtooth
+    - blockchain
